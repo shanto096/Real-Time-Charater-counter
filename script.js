@@ -8,6 +8,6 @@ input.addEventListener("keyup", ()=>{
 
 function update() {
    total.innerText = input.value.length;
-   remaining.innerText = input.getAttribute('maxlength') -input.value.length;
+   remaining.innerText = input.getAttribute('maxlength') - input.value.length;
 }
 
